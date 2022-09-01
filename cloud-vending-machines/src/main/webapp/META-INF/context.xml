@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/proietto">
+    <Resource auth="Container"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+              maxActive="200"
+              minIdle="10"
+              maxIdle="20"
+              maxWait="2000"
+              name="jdbc/proietto"
+              encrypt="true"
+              trustServerCertificate="false"
+              username="root"
+              password="root"
+              type="javax.sql.DataSource"
+              url="jdbc:mysql://localhost:3306/proietto?allowPublicKeyRetrieval=true&amp;useSSL=false&amp;serverTimezone=UTC"
+              testOnBorrow="true"
+              validationQuery="SELECT 1" />
+</Context>
